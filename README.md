@@ -37,4 +37,3 @@ from the project root dir run the command
    ```
 ## Informations
 * a result.json file contains the last execution of the script in readable format
-* the method parse
