@@ -1,0 +1,23 @@
+{
+  "name": "repo-analyser",
+  "version": "1.0.0",
+  "description": "this lib allow to extract statistics on a github repo containing js/ts files",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xle",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "eslint": "^9.15.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "octokit": "^4.0.2"
+  }
+}
